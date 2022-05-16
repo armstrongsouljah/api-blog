@@ -1,0 +1,32 @@
+{
+  "name": "api-blog",
+  "version": "1.0.0",
+  "description": "simple blog api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armstrongsouljah/api-blog.git"
+  },
+  "keywords": [
+    "api",
+    "blog"
+  ],
+  "author": "Armstrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armstrongsouljah/api-blog/issues"
+  },
+  "homepage": "https://github.com/armstrongsouljah/api-blog#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

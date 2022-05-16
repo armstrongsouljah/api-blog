@@ -5,5 +5,5 @@ simple api built with node
 - clone the repo
 - navigate to project folder
 - install dependencies `npm install`
-- npm run dev
+- run the local server: `npm run dev`
 - visit `http://localhost:3000`

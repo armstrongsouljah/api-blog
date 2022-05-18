@@ -24,7 +24,10 @@
   "homepage": "https://github.com/armstrongsouljah/api-blog#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "express": "^4.18.1"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

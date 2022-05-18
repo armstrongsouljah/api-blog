@@ -1,4 +1,4 @@
-blogPosts = []
+blogPosts = [] // fake
 class Blog {
     constructor(title, content, author) {
         this.title = title
@@ -15,3 +15,13 @@ class Blog {
 }
 
 exports.Blog = Blog;
+
+
+/*
+
+Database -> Collection -> Document
+ use users
+
+ users.profiles.insert({})
+
+*/

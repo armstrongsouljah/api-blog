@@ -10,7 +10,7 @@ exports.fetchPosts = async (req, res) => {
 exports.createPost = async (req, res) => {
    const {title, author, content} = req.body;
     //    const blog = new Blog(title, author, content)
-   const blog = await Post.create({title, author, description: content})
+   const post = await Post.create({title, author, description: content})
     //    blog.save() //assume it always
    return res.json({ post })
 }

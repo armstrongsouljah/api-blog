@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose');
 require('dotenv').config()
+const cors = require('cors')
 
 const blogRoutes = require('./views/index')
 
@@ -11,6 +12,7 @@ const app  = express()
 // middleware
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
+app.use(cors())
 
 const { DATABASE_URL, } = process.env //helps encapsulate sensitive information
 const { PORT } = process.env || 4000
